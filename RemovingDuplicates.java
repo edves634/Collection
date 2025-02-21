@@ -17,12 +17,13 @@ public class RemovingDuplicates {
         list.add(88);
         list.add(90);
 
-        System.out.println(list);
+        System.out.println("Исходный список: " + list);
 
         set.addAll(list);
         list.clear();
         list.addAll(set);
-        System.out.println(set);
+        // Выводим результат в виде списка
+        System.out.println("Список без дубликатов: " + list);
     }
 
 }

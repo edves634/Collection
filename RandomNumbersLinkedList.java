@@ -12,7 +12,7 @@ public class RandomNumbersLinkedList {
         long startTime = System.currentTimeMillis();
 /// comment
         LinkedList<Integer> list = new LinkedList<>();
-        int length = 40000;
+        int length = 50000;
         Random rand = new Random();
 
         // Заполнение LinkedList случайными числами

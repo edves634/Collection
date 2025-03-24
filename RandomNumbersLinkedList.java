@@ -10,7 +10,7 @@ public class RandomNumbersLinkedList {
     }
     public static long measureTime() {
         long startTime = System.currentTimeMillis();
-
+/// comment
         LinkedList<Integer> list = new LinkedList<>();
         int length = 20000;
         Random rand = new Random();

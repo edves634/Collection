@@ -1,0 +1,19 @@
+Subject: [PATCH] Update README.md
+---
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision f893a23e9837b4cb479f51b96f3e6c3e2d0b8d66)
++++ b/README.md	(revision 689595456332d022e51e61cb3c4a62908835d210)
+@@ -1,6 +1,8 @@
+ # Collection
+ Поправки к замечаниям
+ 
++Корректировка в новой ветеке
++
+ 1. ChangeKeysAndValues:
+    • Код хорошо создает и заполняет HashMap, а затем меняет ключи и значения местами.
+    • Имей в виду, что если в исходном HashMap есть дубликаты значений, они могут потеряться при добавлении в новый map2, так как HashMap не допускает дублирующихся ключей.
